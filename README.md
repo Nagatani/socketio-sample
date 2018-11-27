@@ -11,7 +11,8 @@ socket.io sample project
 ## Installation
 Install dependencies
 
-### Server
+サーバーとクライアントで、packageが別れています。
+それぞれで`$npm install`してください。
 
 ```
 cd server
