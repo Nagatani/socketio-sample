@@ -82,7 +82,11 @@ module.exports = (env) => {
       new HtmlWebpackPlugin({
         template: './src/index.html',
       }),
-      new CleanWebpackPlugin(['dist/*.html', 'dist/*.js', 'dist/*.css']),
+      new CleanWebpackPlugin([
+        'dist/*.html',
+        'dist/*.js',
+        'dist/*.css'
+      ]),
       new HtmlBeautifyPlugin({
         config: {
           html: {
